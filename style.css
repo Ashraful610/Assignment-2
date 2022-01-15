@@ -31,17 +31,16 @@
      margin-right: 30px;
  }
  /*-------------------- header-end ------------------------------*/
-.influencer-area{
+.influencer{
          display: flex;
-         justify-content: space-between;
-          
+         justify-content: space-between;    
 }
 .contant{
     width: 50%;
     margin-right: 100px;
 }
  .contant h1{
-     font-size: 50px;
+     font-size: 40px;
  }
  .contant p{
      font-size: 25px;
@@ -76,7 +75,8 @@
  }
  hr{
      color: #aaaaaa04;
- }
+ } 
+ /*----------------- Logo-start---------------------- */
  .Logo-area{
      display: grid;
      grid-template-columns: repeat(7,1fr);
@@ -84,3 +84,69 @@
      padding: 20px 20px;
      margin-top: 20px;
  }
+ /* ---------------Logo-end ---------------*/
+ /* --------------------Card-start------------------------ */
+.heading{
+    font-size: 40px;
+    text-align: center;
+}
+.card-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 20px;
+    padding-left: 25px;
+    background-color: #aaaaaa27;
+
+
+    
+}
+.card{
+    width: 345px;
+    height: 560px;
+    background-color: white;
+    margin-bottom: 30px;
+   padding-left: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    
+}
+.card img{
+    width: 320px;
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 30px;
+}
+.price{
+    font-size: 25px;
+}
+.star{
+    font-size: 15px;
+    color: #FF9529;
+}
+.item-info{
+    font-size: 20px;
+    line-height: 30px;
+    color: #aaaaaa;
+}
+/*----------------------- second-button-start-------------------- */
+.last-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 20px;
+}
+.second-button{
+    background-color: white;
+    border: none;
+}
+h5{
+    font-size: 20px;
+    color: orange;
+}
+.fa-arrow-right{
+    font-size: 20px;
+    color: orange;
+}
+/*--------------------- second-button-end -----------------*/
+/* -------------------------card-end -----------------------------*/
