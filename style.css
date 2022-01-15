@@ -14,6 +14,8 @@
      background-color: #fff;
  }
  /*------------- container -end------------*/
+
+ 
  /*--------------- header-start--------------- */
  .navigation-var{
    display: flex;
@@ -31,6 +33,9 @@
      margin-right: 30px;
  }
  /*-------------------- header-end ------------------------------*/
+
+
+ /* .----------------------influencer-area-start -----------------------*/
 .influencer{
          display: flex;
          justify-content: space-between;    
@@ -45,7 +50,7 @@
  .contant p{
      font-size: 25px;
  }
- .contant button{
+ .first-button{
      font-size: 26px;
      background-color: orange;
      color: white;
@@ -53,8 +58,9 @@
      border-style: none;
      padding: 10px;
  }
- .fa-arrow-right{
+ .first-font-icon{
      font-size: 30px;
+     color: white;
  }
  .contant pic{
      border: 1px solid #AAAAAA12;
@@ -76,6 +82,10 @@
  hr{
      color: #aaaaaa04;
  } 
+ /* ---------------.influencer-area-end ---------------------- */
+
+
+
  /*----------------- Logo-start---------------------- */
  .Logo-area{
      display: grid;
@@ -85,6 +95,9 @@
      margin-top: 20px;
  }
  /* ---------------Logo-end ---------------*/
+
+
+
  /* --------------------Card-start------------------------ */
 .heading{
     font-size: 40px;
@@ -144,9 +157,66 @@ h5{
     font-size: 20px;
     color: orange;
 }
-.fa-arrow-right{
+/* .fa-arrow-right{
     font-size: 20px;
-    color: orange;
+    color: orange; */
 }
 /*--------------------- second-button-end -----------------*/
 /* -------------------------card-end -----------------------------*/
+
+
+
+/* ----------------------feature-section-start --------------------------*/
+.last-contant{
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+.feature h1{
+    font-size: 40px;
+}
+.color-change{
+    color:orange;
+}
+.feature p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.photo{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-row-gap: 20px;
+   grid-column-gap: 20px;
+}
+/* -------------------feature-section-end----------------------- */
+
+
+
+/* --------------------footer-area-start ----------------------*/
+.footer{
+    background-color:black;
+    color: white;
+    padding: 30px;
+   
+}
+.footer-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+small{
+    line-height: 30px;
+}
+.media-icon{
+    display: flex;
+    justify-content: center;
+}
+.fab{
+   margin: 10px;
+}
+/* ----------------------footer-area-end------------------------------ */
