@@ -1,5 +1,6 @@
 /*-------------- Google font----------- */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@600&display=swap');
+    
  /*------------ container-start----------- */
  body{
      background-color: #AAAA;
@@ -37,8 +38,8 @@
 
  /* .----------------------influencer-area-start -----------------------*/
 .influencer{
-         display: flex;
-         justify-content: space-between;    
+   display: flex;
+   justify-content: space-between;
 }
 .contant{
     width: 50%;
@@ -62,26 +63,51 @@
      font-size: 30px;
      color: white;
  }
- .contant pic{
+ /* .contant pic{
      border: 1px solid #AAAAAA12;
      border-radius: 200px;
     margin-left: 300px;
-
- }
+    } */
  .contant img{
-     width: 530px;
-     height: 484px;
+     width: 500px;
+     height: 440px;
      padding: 30px;
      background-color: #AAAAAA12;
      border: 5px solid white;
-     border-radius:300px;
+     border-radius:800px;
  }
+ 
  .top-img{
      padding: 0 60px;
  }
  hr{
      color: #aaaaaa04;
  } 
+ .animation{
+     display: flex;
+     height: 100px;
+     
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+ }
+ .box{
+     width: 50px;
+     height: 50px;
+     margin-left: 40px;
+     margin-right: 40px;
+     background-color: orange;
+     border-radius: 10px;
+     transition: width 1s,height 1s, transform 2s;
+ }
+ .box:hover{
+     width: 90px;
+     height: 90px;
+     transform: rotate(360deg);
+    
+ }
+
+
  /* ---------------.influencer-area-end ---------------------- */
 
 
@@ -106,9 +132,10 @@
 .card-area{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 20px;
-    padding: 40px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /* padding: 40px; */
+    padding-top: 30px;
     padding-left: 50px;
     background-color: #aaaaaa27;
 
