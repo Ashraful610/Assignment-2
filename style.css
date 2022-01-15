@@ -1,2 +1,30 @@
 /*-------------- Google font----------- */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@600&display=swap');
+ /*------------ container-start----------- */
+ body{
+     background-color: #AAAA;
+     display: flex;
+     justify-content: center;
+ }
+ .container{
+     width: 80%;
+     padding: 80px 100px;
+     background-color: #fff;
+ }
+ /*------------- container -end------------*/
+ /*--------------- header-start--------------- */
+ .navigation-var{
+   display: flex;
+   justify-content: space-between;
+ }
+ .first-style{
+     font-size: 40px;
+ }
+ .icon{
+     font-size: 30px;
+     padding-top: 20px;
+     color: rgba(255, 166, 0, 0.767);
+ }
+ .fa-search{
+     margin-right: 20px;
+ }
